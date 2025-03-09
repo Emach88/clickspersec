@@ -1,0 +1,11 @@
+#clicktarget {
+  height:1000px;
+  width:100%;
+  background-color:#5b64e0;
+}
+h1{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
