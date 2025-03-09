@@ -1,6 +1,6 @@
 count=0;
 seconds=0;
-url = "https://corsanywhere.heroku.app/https://vast-joey-59273.upstash.io"
+url = "https://vast-joey-59273.upstash.io"
 let timerid;
 function timer(){
   seconds=seconds+1;
