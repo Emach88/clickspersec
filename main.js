@@ -10,7 +10,7 @@ function timer(){
     score = count/seconds;
     element = document.getElementById("clicktarget").style.display = 'none';
     username= document.getElementById("username").value;
-    request = await fetch(url+'/set/'.username+'/'+score,{
+    request = fetch(url+'/set/'.username+'/'+score,{
       headers: {"Authorization": "Bearer AeeJAAIjcDExZjg5NWM0OTI1NDE0Y2M1YWNmMjY3NGEyMmMwZTQwMHAxMA"}
     })
   }
