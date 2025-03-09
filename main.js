@@ -7,6 +7,7 @@ function timer(){
     clearInterval(timerid);
     alert(count/seconds);
     element = document.getElementById("clicktarget").style.display = 'none';
+    
   }
 }
 function countclick(){
